@@ -28,8 +28,8 @@ public class HW_iskl {
 //            System.out.println("Вывожу Null");
 //        }
 
-        double[]  arr3 = new double[]{1,2,3,4,5,6,7,8,9,0,7};
-        double[]  arr4 = new double[]{3,4,65,7,6,5,0,4,5,6,7,7,76,7};
+        double[] arr3 = new double[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 7};
+        double[] arr4 = new double[]{3, 4, 65, 7, 6, 5, 0, 4, 5, 6, 7, 7, 76, 7};
 
 
         HW_iskl hw = new HW_iskl();
@@ -37,7 +37,7 @@ public class HW_iskl {
 //        hw.task1_2();
 //        hw.task1_3();
 //        hw.task2(arr);
-        task4(arr3,arr4);
+        task4(arr3, arr4);
 
     }
 
@@ -111,7 +111,7 @@ public class HW_iskl {
     //2.несуществующие числа
 
 
-    public  static double[] task4 (double[] arr1 , double[] arr2) {
+    public static double[] task4(double[] arr1, double[] arr2) {
 
         double[] arr3 = new double[arr1.length];
         try {
@@ -120,10 +120,10 @@ public class HW_iskl {
                 System.out.println(arr3[i]);
             }
 
-        }catch (RuntimeException e){
+        } catch (RuntimeException e) {
             System.out.println("Исключение - RuntimeException");
         }
 
-        return  arr3;
+        return arr3;
     }
 }
